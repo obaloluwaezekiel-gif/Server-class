@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-//app.use(express.json())
+app.use(express.json())
 
 const profile = [
     {name: "Oba", age:5, indigine: "Osun"},
